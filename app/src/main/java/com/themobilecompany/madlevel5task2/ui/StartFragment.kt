@@ -1,4 +1,4 @@
-package com.themobilecompany.madlevel5task2
+package com.themobilecompany.madlevel5task2.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
+import com.themobilecompany.madlevel5task2.R
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
