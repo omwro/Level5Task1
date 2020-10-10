@@ -12,7 +12,7 @@ import java.util.*
 
 class NoteViewmodel(application: Application): AndroidViewModel(application) {
     private val noteRepository = NoteRepository(application.applicationContext)
-    
+
     val note = noteRepository.getNotepad()
 
     private val mainscope = CoroutineScope(Dispatchers.IO)
